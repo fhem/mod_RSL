@@ -1,2 +1,6 @@
+24.02.2019
+ 14_SD_RSL.pm: fix IODEV not correctly assigned #484 | fix undef syntax | revised doc + revised log output´s
+12.02.2019
+ 14_SD_RSL.pm: feature: Updated implementation for "all" button on device
 09.10.2018
  14_SD_RSL.pm - added Doc_DE
