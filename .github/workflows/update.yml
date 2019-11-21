@@ -28,4 +28,4 @@ jobs:
         git config --global user.email "update@github-actions.com"
         git config --global user.name "Updater"
         git config --global push.default simple
-        git commit -m "A updated controls file. " ./controls_signalduino.txt || true
+        git add controls_signalduino.txt  && git commit controls_signalduino.txt  -m "test" || true
