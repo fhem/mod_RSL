@@ -1,11 +1,4 @@
 2019-11-21
- - Update update.yml
-
-Added git add and commit to Changed file to
-2019-11-21
- - Update 14_SD_RSL.pm
-
 14_SD_RSL.pm
-
  Added setExtension support
  Refactored sub SD_RSL_Set
