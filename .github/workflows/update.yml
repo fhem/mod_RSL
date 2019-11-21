@@ -32,5 +32,7 @@ jobs:
         git config --global user.name "Updater"
         git config --global push.default simple
         git remote set-url origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
-        git add  ${CONTROLS_FILENAME}  && git commit  ${CONTROLS_FILENAME}  -m "test" || true
+        git add  CHANGED ${CONTROLS_FILENAME} && git commit  CHANGED ${CONTROLS_FILENAME} -m "Automaitc updated controls and CHANGED" || true
+    - name: git push
+      run: |
         git push origin HEAD:${GITHUB_REF}     
