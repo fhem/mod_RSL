@@ -23,3 +23,9 @@ jobs:
       run: |
         echo $(date +"%Y-%m-%d") >> CHANGED
         echo " - $(git log -1 --pretty=%B)" >> CHANGED
+    - name: git commit back
+      run: |
+        git config --global user.email "update@github-actions.com"
+        git config --global user.name "Updater"
+        git config --global push.default simple
+        git commit -m "A updated controls file. " ./controls_signalduino.txt || true
