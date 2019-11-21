@@ -11,7 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: update controls files
       run: |
-        rm controls_rsl.txt
+        rm -f controls_rsl.txt
         while IFS= read -r -d '' FILE
         do
            TIME=$(git log --pretty=format:%cd -n 1 --date=format:%Y-%m-%d\ %H:%M -- "$FILE")
