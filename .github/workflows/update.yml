@@ -32,4 +32,4 @@ jobs:
         git config --global push.default simple
         git remote set-url origin https://${GITHUB_ACTOR}:${GITHUB_TOKEN}@github.com/${REPOSITORY}.git
         git add controls_rsl.txt  && git commit controls_rsl.txt  -m "test" || true
-        git push origin HEAD:${INPUT_BRANCH}     
+        git push origin HEAD:${GITHUB_REF}     
