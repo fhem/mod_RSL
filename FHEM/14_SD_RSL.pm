@@ -1,5 +1,5 @@
 #####################################################################
-# $Id: 14_SD_RSL.pm 7779 2019-01-04 18:00:00Z v3.34-dev $
+# $Id: 14_SD_RSL.pm 7779 2019-11-21 18:00:00Z  $
 #
 # The file is part of the SIGNALduino project.
 # SIGNALduino RSL Modul. Modified version of FHEMduino Modul by Wzut
