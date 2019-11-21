@@ -3,23 +3,33 @@ name: CI
 on: [push]
 
 jobs:
-  build:
-
+  update:
+    env:
+      CONTROLS_FILENAME: controls_rsl.txt 
     runs-on: ubuntu-latest
-
-    steps:
-    - uses: actions/checkout@v1
+    steps: 
+    - name: Extract branch name
+      run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
+      id: extract_branch
+    - name: Checkout Repostory
+      uses: actions/checkout@master
     - name: update controls files
-      run: |
-        rm controls_rsl.txt
-        while IFS= read -r -d '' FILE
-        do
-           TIME=$(git log --pretty=format:%cd -n 1 --date=format:%Y-%m-%d\ %H:%M -- "$FILE")
-           FILESIZE=$(stat -c%s "$FILE")
-           FILE=$(echo "$FILE"  | cut -c 3-)
-           printf "UPD %s %-7d %s\n" "$TIME" "$FILESIZE" "$FILE"  >> controls_rsl.txt
-        done <   <(find ./FHEM -maxdepth 2 \( -name "*.pm" \) -print0 | sort -z -g)
+      uses: sidey79/fhem-controls-actions@master
+      with:
+        filename: controls_rsl.txt 
     - name: update CHANGED
       run: |
-        echo $(date +"%Y-%m-%d") >> CHANGED
-        echo " - $(git log -1 --pretty=%B)" >> CHANGED
+        LOG=$(date +"%Y-%m-%d") 
+        LOG+=" - $(git log -1 --pretty=%B)"
+        echo "$LOG" | cat - CHANGED > temp && mv temp CHANGED
+    - name: git commit back
+      run: |
+        git config --global user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add  CHANGED controls_rsl.txt || true
+        git log -1 --name-only --pretty=format: | grep -Eo '[0-9]{2}_.*.pm$' && git commit CHANGED controls_rsl.txt -m "Automaitc updated controls and CHANGED" || true
+    - name: git push
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        branch: ${{ steps.extract_branch.outputs.branch }}
