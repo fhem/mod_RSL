@@ -1,6 +1,7 @@
 21.04.2019
  14_SD_RSL.pm: change set loglevel from 4 to 3
 25.03.2019
+ 14_SD_RSL.pm - optimize Log set (#571)
  14_SD_RSL.pm: fix PERL WARNING: "my" variable $iodevice
 24.02.2019
  14_SD_RSL.pm: fix IODEV not correctly assigned #484 | fix undef syntax | revised doc + revised log output´s
