@@ -1,5 +1,5 @@
 #####################################################################
-# $Id: 14_SD_RSL.pm 7779 2019-01-04 18:00:00Z v3.34-dev $
+# $Id: 14_SD_RSL.pm 12594 2019-11-24 18:00:00Z v3.34-dev $
 #
 # The file is part of the SIGNALduino project.
 # SIGNALduino RSL Modul. Modified version of FHEMduino Modul by Wzut
@@ -7,7 +7,7 @@
 # 2019 - Ralf9 & Sidey79
 #
 # Supports following devices:
-# - Conrad RSL 
+# - Conrad RSL  
 #####################################################################
 
 package main;
