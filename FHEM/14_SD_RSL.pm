@@ -1,5 +1,5 @@
 #####################################################################
-# $Id: 14_SD_RSL.pm 12585 2019-11-23 18:00:00Z  $
+# $Id: 14_SD_RSL.pm 12585 2019-11-23 19:00:00Z  $
 #
 # The file is part of the SIGNALduino project.
 # SIGNALduino RSL Modul. Modified version of FHEMduino Modul by Wzut
@@ -8,6 +8,7 @@
 #
 # Supports following devices:
 # - Conrad RSL 
+# Supports Setextensions (on-for-timer, on-till, toggle, ...)  
 #####################################################################
 
 package main;
