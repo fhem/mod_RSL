@@ -21,7 +21,7 @@ jobs:
     - name: run make test
       run: |
         timeout 40 bash -c 'while /usr/bin/pgrep perl; do sleep 1; echo .; done;'
-        make test 
+        make test && sudo pkill "^perl"
         timeout 40 bash -c 'while /usr/bin/pgrep perl; do sleep 1; echo .; done;' || sudo pkill "^perl"
         sleep 3
         cp -R /opt/fhem/cover_db ./
