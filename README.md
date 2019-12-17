@@ -1,4 +1,5 @@
 ![Status Unittest](https://github.com/fhem/mod_RSL/workflows/Fhem%20UnitTest/badge.svg)
+[![codecov](https://codecov.io/gh/fhem/mod_RSL/branch/master/graph/badge.svg)](https://codecov.io/gh/fhem/mod_RSL)
 
 
 # 14_SD_RSL
