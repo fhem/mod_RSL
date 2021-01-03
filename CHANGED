@@ -1,3 +1,6 @@
+2021-01-03 - 14_SD_RSL.pm
+
+removed perlcritic return undef
 2019-12-17 - Update README.md
 
 Add codecov badge
