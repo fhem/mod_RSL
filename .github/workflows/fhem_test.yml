@@ -6,6 +6,7 @@ on:
       - 'FHEM/**'
       - 'UnitTest/**'
       - 't/**'
+      - '.github/workflows/fhem_test.yml'
   
   schedule:
     - cron: '47 16 * * 1,5'
