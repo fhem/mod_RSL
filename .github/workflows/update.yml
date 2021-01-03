@@ -1,7 +1,10 @@
 name: controlsFile
 
-on: [push]
-
+on:
+  push:
+    paths: 
+      - 'FHEM/**'
+      
 jobs:
   update:
     env:
@@ -12,11 +15,11 @@ jobs:
       run: echo "##[set-output name=branch;]$(echo ${GITHUB_REF#refs/heads/})"
       id: extract_branch
     - name: Checkout Repostory
-      uses: actions/checkout@master
+      uses: actions/checkout@v2
       with:
         fetch-depth: 0
     - name: update controls files
-      uses: fhem/fhem-controls-actions@master
+      uses: fhem/fhem-controls-actions@v1
       with:
         filename: controls_rsl.txt 
     - name: update CHANGED
