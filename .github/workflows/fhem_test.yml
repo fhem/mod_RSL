@@ -1,5 +1,13 @@
 name: Fhem UnitTest
-on: [push]
+on:
+  push:
+    paths:
+      - ./FHEM
+      - ./UnitTest
+      - ./t
+  
+  schedule:
+    - cron: '47 16 * * 1,5'
 
 jobs:
   build:
