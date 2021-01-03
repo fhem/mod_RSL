@@ -4,6 +4,7 @@ on:
   push:
     paths: 
       - 'FHEM/**'
+      - '.github/workflows/update.yml'
       
 jobs:
   update:
