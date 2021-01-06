@@ -1,0 +1,8 @@
+version: 2
+updates:
+  https://github.com/fhem/mod_RSL
+  # Maintain dependencies for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
