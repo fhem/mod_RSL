@@ -5,6 +5,7 @@ on:
     paths:
       - 'FHEM/**'
       - 't/**'
+      - 'cpanfile'
       - '.github/workflows/fhem_test.yml'
 
   schedule:
