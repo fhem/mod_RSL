@@ -6,7 +6,7 @@ on:
       - 'FHEM/**'
       - 't/**'
       - 'cpanfile'
-      - '.github/workflows/fhem_test.yml'
+      - '.github/workflows/prove.yml'
 
   schedule:
     - cron: '47 16 * * 1,5'
