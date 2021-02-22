@@ -1,13 +1,8 @@
 requires 'List::Util';
 requires 'File::Find';
 requires 'File::Basename';
-requires 'Mock::Sub';
-requires 'Test::More'; 
+requires 'Test2::V0'; 
 requires 'Devel::Cover'; 
-requires 'Devel::Cover::Report::Coveralls';
 requires 'JSON';
 requires 'Net::SSLeay';
-requires 'Devel::Cover::Report::Clover';
 requires 'Devel::Cover::Report::Codecov';
-recommends 'Pod::Usage';
-requires 'Test::Device::SerialPort';
