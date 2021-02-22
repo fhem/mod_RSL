@@ -35,7 +35,7 @@ jobs:
         echo "deb http://debian.fhem.de/nightly/ /" | sudo tee -a /etc/apt/sources.list
         sudo apt-get update -qq
         sudo apt-get install fhem -y
-        sudo chown -R --reference=Makefile /opt/fhem
+        sudo chown -R --reference=cpanfile /opt/fhem
         sudo systemctl stop fhem
 #    - name: Setup tmate session
 #      uses: mxschmitt/action-tmate@v1
