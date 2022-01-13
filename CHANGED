@@ -1,3 +1,16 @@
+2022-01-13 - Update 14_SD_RSL.pm from RFFHEM repository (#34)
+
+* Update 14_SD_RSL.pm
+
+Updates taken from RFFHEM Repository
+
+* Automaitc updated controls and CHANGED
+
+* Update 00_load.t
+
+Taken from RFFHEM repository
+
+Co-authored-by: GitHub Action <action@github.com>
 2022-01-09 - Update 14_SD_RSL.pm
 
 Updates taken from RFFHEM Repository
