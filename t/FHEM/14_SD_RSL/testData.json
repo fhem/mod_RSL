@@ -1,0 +1,26 @@
+[
+    {
+        "data" : [
+           {
+              "comment" : "Channel 4 - Button 3 on, https://forum.fhem.de/index.php/topic,58397.msg880350.html#msg880350 (ID 41 additionally)",
+              "dmsg" : "P1#9374A400",
+              "internals" : {
+                 "DEF" : "74A400_ALL",
+                 "NAME" : "RSL_74A400_ALL"
+              },
+              "minProtocolVersion" : "1.27",
+              "readings" : {
+                 "state" : "on"
+              },
+              "revision_entry" : "2021-03-23 14:05:03",
+              "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+              "rmsg" : "MS;P1=1154;P2=-697;P3=559;P4=-1303;P5=-7173;D=351234341234341212341212123412343412341234341234343434343434343434;CP=3;SP=5;R=247;O;",
+              "user" : "gandi1791"
+           }
+        ],
+        "id" : "1",
+        "module" : "SD_RSL",
+        "name" : "Conrad RSL"
+     }
+]
+ 
