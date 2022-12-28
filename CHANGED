@@ -1,3 +1,7 @@
+* 2022-12-27 - 14_SD_RSL
+
+Added Meta support
+
 2022-01-13 - Update 14_SD_RSL.pm from RFFHEM repository (#34)
 
 * Update 14_SD_RSL.pm
@@ -14,6 +18,7 @@ Co-authored-by: GitHub Action <action@github.com>
 2022-01-09 - Update 14_SD_RSL.pm
 
 Updates taken from RFFHEM Repository
+
 2019-12-17 - Update README.md
 
 Add codecov badge
