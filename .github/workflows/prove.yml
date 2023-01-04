@@ -29,10 +29,23 @@ jobs:
 
     - name: Install FHEM via debian nightly 
       uses: fhem/setup-fhem@v1.0.1
+      with:
+        runservice : true
+
+    - name: Install Test2 RDMSG Tool
+      run: |
+        wget -O fhemcl.sh https://raw.githubusercontent.com/heinz-otto/fhemcl/master/fhemcl.sh
+        chmod +x ./fhemcl.sh && echo -e "update force https://raw.githubusercontent.com/fhem/Test2-FHEM/main/controls_Test2-FHEM.txt" | ./fhemcl.sh http://localhost:8083 
+      shell: bash
+
+    - name: Stop Service
+      run : sudo systemctl stop fhem
+      shell: bash
 
     - name: change ownership of /opt/fhem
       run: |
         sudo chown -R --reference=cpanfile /opt/fhem
+      shell: bash
 
     - name: run prove fhem testsuite ${{ matrix.perl }}
       run: |
