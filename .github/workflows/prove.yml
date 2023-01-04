@@ -17,33 +17,26 @@ jobs:
     strategy:
       matrix:
         os: ['ubuntu-latest']
-        perl: [ '5.22', '5.24', '5.26' ]
+        perl: [ '5.24', '5.28','5.32' ]
     name: Perl ${{ matrix.perl }} on ${{ matrix.os }}
     steps:
     - uses: actions/checkout@v3
     - uses: shogo82148/actions-setup-perl@v1.20.1
       with:
         perl-version: ${{ matrix.perl }}
-    - name: Install deps via cpanm
+        install-modules-with: cpanm
+        install-modules-args: --no-interactive -v --installdeps
+
+    - name: Install FHEM via debian nightly 
+      uses: fhem/setup-fhem@v1.0.1
+
+    - name: change ownership of /opt/fhem
       run: |
-        cpanm --notest --no-interactive -v --installdeps .
-        cpanm --notest --no-interactive -v Devel::Cover::Report::Clover
-        cpanm --no-interactive -v Storable
-    - name: install fhem via deb package
-      run: |
-        wget -qO - http://debian.fhem.de/archive.key | sudo apt-key add -
-        echo "deb http://debian.fhem.de/nightly/ /" | sudo tee -a /etc/apt/sources.list
-        sudo apt-get update -qq
-        sudo apt-get install fhem -y
         sudo chown -R --reference=cpanfile /opt/fhem
-        sudo systemctl stop fhem
-#    - name: Setup tmate session
-#      uses: mxschmitt/action-tmate@v1
+
     - name: run prove fhem testsuite ${{ matrix.perl }}
       run: |
         cp -R ${GITHUB_WORKSPACE}/FHEM/* ${FHEM_DIR}/FHEM/
-        # cp -R ${GITHUB_WORKSPACE}/lib/* ${FHEM_DIR}/lib/
-        #find ${GITHUB_WORKSPACE}/t/FHEM -maxdepth 1  -regex '.*/t/FHEM/[0-9][0-9]_.*' -print0 | xargs -0 -I'{}' prove --exec 'perl -MDevel::Cover=-silent,1 fhem.pl -t' -I FHEM -r -vv -r "{}"
         prove --exec 'perl -MDevel::Cover=-silent,1 fhem.pl -t' -I FHEM -r -vv -r ${GITHUB_WORKSPACE}/t/FHEM/
       working-directory: /opt/fhem/
       env:
@@ -57,5 +50,3 @@ jobs:
         file: /opt/fhem/cover_db/clover.xml
         flags: unittests,fhem,modules
         name: fhem (testscripts) ${{ matrix.perl }} 
-
-   
