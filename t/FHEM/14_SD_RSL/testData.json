@@ -411,7 +411,192 @@
                   "comment": "#0"
                 }
                ]
+            },
+            {
+               "comment" : "RSL Fernbedienung xx Channel <modell> Button ALL on",
+               "dmsg" : "P1#93500A00",
+               "internals" : {
+                  "DEF" : "500A00_ALL",
+                  "NAME" : "RSL_500A00_1_ALL",
+                  "OnCode" : "93",
+                  "OffCode" : "A3"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P2=-1278;P3=1176;P4=-681;P5=586;P6=-7117;D=563452523452523434523452345252525252525252345234525252525252525252;CP=5;SP=6;R=245;O;m1;",
+               "user" : "Reinhard.M",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung xx Channel <modell> Button ALL off",
+               "dmsg" : "P1#A3500A00",
+               "internals" : {
+                  "DEF" : "500A00_ALL",
+                  "NAME" : "RSL_500A00_1_ALL",
+                  "OnCode" : "93",
+                  "OffCode" : "A3"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-1278;P1=584;P2=-7109;P3=1176;P4=-686;D=123410341010103434103410341010101010101010341034101010101010101010;CP=1;SP=2;R=252;O;b3;m0;",
+               "user" : "Reinhard.M",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung xx Channel <modell> Button 1 on",
+               "dmsg" : "P1#A3500A00",
+               "internals" : {
+                  "DEF" : "500A00_1_1",
+                  "NAME" : "RSL_500A00_1_1",
+                  "OnCode" : "8E",
+                  "OffCode" : "81"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1183;P2=-668;P3=581;P4=-1273;P5=-7042;D=351234343412121234341234123434343434343434123412343434343434343434;CP=3;SP=5;R=3;O;b65;m0;",
+               "user" : "Reinhard.M",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung xx Channel <modell> Button 1 off",
+               "dmsg" : "P1#81500A00",
+               "internals" : {
+                  "DEF" : "500A00_1_1",
+                  "NAME" : "RSL_500A00_1_1",
+                  "OnCode" : "98",
+                  "OffCode" : "81"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1183;P2=-665;P3=591;P4=-1273;P5=-7023;D=351234343434343412341234123434343434343434123412343434343434343434;CP=3;SP=5;R=3;O;b65;m0;",
+               "user" : "Reinhard.M",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung xx Channel <modell> Button 2 on",
+               "dmsg" : "P1#A3500A00",
+               "internals" : {
+                  "DEF" : "500A00_1_2",
+                  "NAME" : "RSL_500A00_1_2",
+                  "OnCode" : "A6",
+                  "OffCode" : "AE"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1182;P2=-679;P3=579;P4=-1274;P5=-7080;D=351234123434121234341234123434343434343434123412343434343434343434;CP=3;SP=5;R=10;O;b65;m0;",
+               "user" : "Reinhard.M",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung xx Channel <modell> Button 2 off",
+               "dmsg" : "P1#AE500A00",
+               "internals" : {
+                  "DEF" : "500A00_1_2",
+                  "NAME" : "RSL_500A00_1_2",
+                  "OnCode" : "A6",
+                  "OffCode" : "AE"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P2=1182;P3=-716;P4=592;P5=-1243;P6=-7059;D=462345234523232345452345234545454545454545234523454545454545454545;CP=4;SP=6;R=255;e;b48;m0;",
+               "user" : "Reinhard.M",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung xx Channel <modell> Button 3 on",
+               "dmsg" : "P1#96500A00",
+               "internals" : {
+                  "DEF" : "500A00_1_3",
+                  "NAME" : "RSL_500A00_1_3",
+                  "OnCode" : "96",
+                  "OffCode" : "9E"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1181;P2=-676;P3=589;P4=-1273;P5=-7085;D=351234341234121234341234123434343434343434123412343434343434343434;CP=3;SP=5;R=12;O;b65;m0;",
+               "user" : "Reinhard.M",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung xx Channel <modell> Button 3 off",
+               "dmsg" : "P1#9E500A00",
+               "internals" : {
+                  "DEF" : "500A00_1_3",
+                  "NAME" : "RSL_500A00_1_3",
+                  "OnCode" : "96",
+                  "OffCode" : "9E"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=1179;P1=-683;P2=586;P3=-1273;P4=-7065;D=240123230101010123230123012323232323232323012301232323232323232323;CP=2;SP=4;R=12;O;b54;m0;",
+               "user" : "Reinhard.M",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
             }
+
         ],
         "id" : "1",
         "module" : "SD_RSL",
