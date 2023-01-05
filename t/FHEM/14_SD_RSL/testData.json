@@ -21,6 +21,396 @@
                  "comment": "#0"
                }
               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 1, switch 1-4 ",
+               "dmsg" : "P1#B67EB200",
+               "internals" : {
+                  "DEF" : "7EB200_0_0",
+                  "NAME" : "RSL_7EB200_0_0",
+                  "OnCode" : "B6",
+                  "OffCode" : "BE"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-681;P1=587;P3=1181;P4=-1261;P6=-7142;D=163014303014303014143030303030301430143030141430141414141414141414;CP=1;SP=6;R=4;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 2, switch 1-4",
+               "dmsg" : "P1#8E7EB200",
+               "internals" : {
+                  "DEF" : "7EB200_1_1",
+                  "NAME" : "RSL_7EB200_1_1",
+                  "OnCode" : "8E",
+                  "OffCode" : "81"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=-665;P2=1209;P3=602;P4=-1245;P5=-7106;D=352134343421212134342121212121213421342121343421343434343434343434;CP=3;SP=5;R=39;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 3, switch 1-4",
+               "dmsg" : "P1#AE7EB200",
+               "internals" : {
+                  "DEF" : "7EB200_1_2",
+                  "NAME" : "RSL_7EB200_1_2",
+                  "OnCode" : "A6",
+                  "OffCode" : "AE"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=611;P2=1217;P3=-657;P4=-1247;P5=-7149;D=052304230423232304042323232323230423042323040423040404040404040404;CP=0;SP=5;R=37;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 4, switch 1-4",
+               "dmsg" : "P1#9E7EB200",
+               "internals" : {
+                  "DEF" : "7EB200_1_3",
+                  "NAME" : "RSL_7EB200_1_3",
+                  "OnCode" : "96",
+                  "OffCode" : "9E"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-662;P3=1212;P5=589;P6=-1252;P7=-7149;D=573056563030303056563030303030305630563030565630565656565656565656;CP=5;SP=7;R=39;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 1, switch 5-8",
+               "dmsg" : "P1#B57EB200",
+               "internals" : {
+                  "DEF" : "7EB200_1_4",
+                  "NAME" : "RSL_7EB200_1_4",
+                  "OnCode" : "B9",
+                  "OffCode" : "B5"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P2=-7116;P3=603;P4=-1255;P5=1214;P6=-668;D=325634565634563456345656565656563456345656343456343434343434343434;CP=3;SP=2;R=34;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 2, switch 5-8",
+               "dmsg" : "P1#8D7EB200",
+               "internals" : {
+                  "DEF" : "7EB200_2_1",
+                  "NAME" : "RSL_7EB200_2_1",
+                  "OnCode" : "85",
+                  "OffCode" : "8D"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-7151;P4=1181;P5=-697;P6=576;P7=-1274;D=604567676745456745674545454545456745674545676745676767676767676767;CP=6;SP=0;R=31;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 3, switch 5-8",
+               "dmsg" : "P1#A57EB200",
+               "internals" : {
+                  "DEF" : "7EB200_2_2",
+                  "NAME" : "RSL_7EB200_2_2",
+                  "OnCode" : "A9",
+                  "OffCode" : "A5"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1180;P2=-684;P3=591;P4=-1266;P5=-7172;D=351234123434123412341212121212123412341212343412343434343434343434;CP=3;SP=5;R=15;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 4, switch 5-8",
+               "dmsg" : "P1#957EB200",
+               "internals" : {
+                  "DEF" : "7EB200_2_3",
+                  "NAME" : "RSL_7EB200_2_3",
+                  "OnCode" : "99",
+                  "OffCode" : "95"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P3=1206;P4=-672;P5=597;P6=-1259;P7=-7161;D=573456563456345634563434343434345634563434565634565656565656565656;CP=5;SP=7;R=24;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 1, switch 9-12",
+               "dmsg" : "P1#B87EB200",
+               "internals" : {
+                  "DEF" : "7EB200_2_4",
+                  "NAME" : "RSL_7EB200_2_4",
+                  "OnCode" : "B0",
+                  "OffCode" : "B8"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1197;P2=-684;P3=578;P4=-1279;P5=-7170;D=351234121212343434341212121212123412341212343412343434343434343434;CP=3;SP=5;R=18;O;m2",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 2, switch 9-12",
+               "dmsg" : "P1#847EB200",
+               "internals" : {
+                  "DEF" : "7EB200_3_1",
+                  "NAME" : "RSL_7EB200_3_1",
+                  "OnCode" : "88",
+                  "OffCode" : "84"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P2=-7651;P3=1201;P4=-666;P5=601;P6=-1273;D=523456565656345656563434343434345634563434565634565656565656565656;CP=5;SP=2;R=16;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 3, switch 9-12",
+               "dmsg" : "P1#A87EB200",
+               "internals" : {
+                  "DEF" : "7EB200_3_2",
+                  "NAME" : "RSL_7EB200_3_2",
+                  "OnCode" : "A0",
+                  "OffCode" : "A8"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1194;P2=-684;P3=573;P4=-1284;P5=-7155;D=351234123412343434341212121212123412341212343412343434343434343434;CP=3;SP=5;R=27;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 4, switch 9-12",
+               "dmsg" : "P1#987EB200",
+               "internals" : {
+                  "DEF" : "7EB200_3_3",
+                  "NAME" : "RSL_7EB200_3_3",
+                  "OnCode" : "90",
+                  "OffCode" : "98"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1183;P2=-683;P3=581;P4=-1269;P5=-7150;D=351234341212343434341212121212123412341212343412343434343434343434;CP=3;SP=5;R=25;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 1, switch 13-16",
+               "dmsg" : "P1#B27EB200",
+               "internals" : {
+                  "DEF" : "7EB200_3_4",
+                  "NAME" : "RSL_7EB200_3_4",
+                  "OnCode" : "BC",
+                  "OffCode" : "B2"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-7159;P4=1208;P5=-671;P6=602;P7=-1253;D=604567454567674567674545454545456745674545676745676767676767676767;CP=6;SP=0;R=32;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 2, switch 13-16",
+               "dmsg" : "P1#8A7EB200",
+               "internals" : {
+                  "DEF" : "7EB200_4_1",
+                  "NAME" : "RSL_7EB200_4_1",
+                  "OnCode" : "82",
+                  "OffCode" : "8A"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1204;P2=-654;P3=605;P4=-1247;P5=-7125;D=351234343412341234341212121212123412341212343412343434343434343434;CP=3;SP=5;R=27;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 3, switch 13-16",
+               "dmsg" : "P1#A27EB200",
+               "internals" : {
+                  "DEF" : "7EB200_4_2",
+                  "NAME" : "RSL_7EB200_4_2",
+                  "OnCode" : "AC",
+                  "OffCode" : "A2"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1179;P2=-682;P3=592;P4=-1263;P5=-7180;D=351234123434341234341212121212123412341212343412343434343434343434;CP=3;SP=5;R=4;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 4, switch 13-16",
+               "dmsg" : "P1#927EB200",
+               "internals" : {
+                  "DEF" : "7EB200_4_3",
+                  "NAME" : "RSL_7EB200_4_3",
+                  "OnCode" : "9C",
+                  "OffCode" : "92"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=-7161;P2=1223;P3=-650;P4=620;P5=-1236;D=412345452345452345452323232323234523452323454523454545454545454545;CP=4;SP=1;R=24;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button ALL",
+               "dmsg" : "P1#A37EB200",
+               "internals" : {
+                  "DEF" : "7EB200_ALL",
+                  "NAME" : "RSL_7EB200_ALL",
+                  "OnCode" : "93",
+                  "OffCode" : "A3"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=618;P1=-1232;P2=-7155;P6=1220;P7=-649;D=026701670101016767016767676767670167016767010167010101010101010101;CP=0;SP=2;R=18;O;m2;",
+               "user" : "Nobbynews",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
             }
         ],
         "id" : "1",
