@@ -1,5 +1,8 @@
 name: Perl Modules&FHEM Unittests
 on: 
+  pull_request:
+    types: [opened, synchronize]
+
   push:
     branches:
     paths:
