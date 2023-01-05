@@ -86,11 +86,11 @@ sub SD_RSL_Initialize {
   my ($hash) = @_;
 
   $hash->{Match}     = "^P1#[A-Fa-f0-9]+";
-  $hash->{SetFn}     = "SD_RSL_Set";
-  $hash->{DefFn}     = "SD_RSL_Define";
-  $hash->{UndefFn}   = "SD_RSL_Undef";
-  $hash->{AttrFn}    = "SD_RSL_Attr";
-  $hash->{ParseFn}   = "SD_RSL_Parse";
+  $hash->{SetFn}     = \&SD_RSL_Set;
+  $hash->{DefFn}     = \&SD_RSL_Define;
+  $hash->{UndefFn}   = \&SD_RSL_Undef;
+  $hash->{AttrFn}    = \&SD_RSL_Attr;
+  $hash->{ParseFn}   = \&SD_RSL_Parse;
   $hash->{AttrList}  = "IODev RSLrepetition ignore:0,1 ".$readingFnAttributes;
   
   $hash->{AutoCreate}=
@@ -285,6 +285,7 @@ sub SD_RSL_Parse($$) {
         Log3 $hash, 4, "$name: SD_RSL_Parse - ButtonCode: $buttonCode";
 
         my ($deviceCode, $action) = split m/ /, $buttonCode, 3;
+
 
         Log3 $hash, 4, "$name: SD_RSL_Parse - Device: $deviceCode Action: $action";
 
