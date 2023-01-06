@@ -595,6 +595,190 @@
                   "comment": "#0"
                 }
                ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 1, switch I ",
+               "dmsg" : "P1#8174A400",
+               "internals" : {
+                  "DEF" : "74A400_1_1",
+                  "NAME" : "RSL_74A400_1_1",
+                  "OnCode" : "8E",
+                  "OffCode" : "81"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P3=-668;P4=1190;P5=589;P6=-1262;P7=-7149;D=574356565656565643564343435643565643564356564356565656565656565656;CP=5;SP=7;R=30;O;s=72;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 1, switch I ",
+               "dmsg" : "P1#8E74A400",
+               "internals" : {
+                  "DEF" : "74A400_1_1",
+                  "NAME" : "RSL_74A400_1_1",
+                  "OnCode" : "8E",
+                  "OffCode" : "81"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1177;P2=-680;P3=583;P4=-1267;P5=-7106;D=351234343412121234341212123412343412341234341234343434343434343434;CP=3;SP=5;R=28;O;s=102;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 2, switch I ",
+               "dmsg" : "P1#A674A400",
+               "internals" : {
+                  "DEF" : "74A400_1_2",
+                  "NAME" : "RSL_74A400_1_2",
+                  "OnCode" : "A6",
+                  "OffCode" : "AE"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1174;P2=-693;P3=564;P4=-1287;P5=-7158;D=351234123434121234341212123412343412341234341234343434343434343434;CP=3;SP=5;R=26;O;s=102;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 2, switch I ",
+               "dmsg" : "P1#AE74A400",
+               "internals" : {
+                  "DEF" : "74A400_1_2",
+                  "NAME" : "RSL_74A400_1_2",
+                  "OnCode" : "A6",
+                  "OffCode" : "AE"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1169;P2=-692;P3=559;P4=-1292;P5=-7144;D=351234123412121234341212123412343412341234341234343434343434343434;CP=3;SP=5;R=28;O;s=102;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 3, switch I ",
+               "dmsg" : "P1#9674A400",
+               "internals" : {
+                  "DEF" : "74A400_1_3",
+                  "NAME" : "RSL_74A400_1_3",
+                  "OnCode" : "96",
+                  "OffCode" : "9E"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-678;P1=582;P2=-1277;P3=1183;P4=-7156;D=143012123012303012123030301230121230123012123012121212121212121212;CP=1;SP=4;R=26;O;s=40;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 3, switch I ",
+               "dmsg" : "P1#9E74A400",
+               "internals" : {
+                  "DEF" : "74A400_1_3",
+                  "NAME" : "RSL_74A400_1_3",
+                  "OnCode" : "96",
+                  "OffCode" : "9E"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=577;P3=1182;P4=-684;P5=-1283;P6=-7148;D=163415153434343415153434341534151534153415153415151515151515151515;CP=1;SP=6;R=28;O;s=98;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button ALL on",
+               "dmsg" : "P1#9374A400",
+               "internals" : {
+                  "DEF" : "74A400_ALL",
+                  "NAME" : "RSL_74A400_ALL",
+                  "OnCode" : "93",
+                  "OffCode" : "A3"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"                  
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=586;P3=1178;P4=-679;P5=-1270;P6=-7174;D=163415153415153434153434341534151534153415153415151515151515151515;CP=1;SP=6;R=28;O;s=98;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button ALL off",
+               "dmsg" : "P1#A374A400",
+               "internals" : {
+                  "DEF" : "74A400_ALL",
+                  "NAME" : "RSL_74A400_ALL",
+                  "OnCode" : "93",
+                  "OffCode" : "A3"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"                  
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-1265;P1=1182;P2=-688;P3=591;P4=-7142;D=341230123030301212301212123012303012301230301230303030303030303030;CP=3;SP=4;R=26;O;s=84;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
             }
 
         ],
