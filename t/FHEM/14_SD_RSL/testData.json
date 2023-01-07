@@ -2,7 +2,7 @@
     {
         "data" : [
            {
-              "comment" : "Channel 4 - Button 3 on, https://forum.fhem.de/index.php/topic,58397.msg880350.html#msg880350 (ID 41 additionally)",
+              "comment" : "channel 4 - Button 3 on, https://forum.fhem.de/index.php/topic,58397.msg880350.html#msg880350 (ID 41 additionally)",
               "dmsg" : "P1#9374A400",
               "internals" : {
                  "DEF" : "74A400_ALL",
@@ -23,7 +23,7 @@
               ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 1, switch 1-4 ",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 1, switch 1-4 ",
                "dmsg" : "P1#B67EB200",
                "internals" : {
                   "DEF" : "7EB200_0_0",
@@ -46,7 +46,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 2, switch 1-4",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 2, switch 1-4",
                "dmsg" : "P1#8E7EB200",
                "internals" : {
                   "DEF" : "7EB200_1_1",
@@ -69,7 +69,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 3, switch 1-4",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 3, switch 1-4",
                "dmsg" : "P1#AE7EB200",
                "internals" : {
                   "DEF" : "7EB200_1_2",
@@ -91,7 +91,7 @@
                 }
                ]
             },            {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 4, switch 1-4",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 4, switch 1-4",
                "dmsg" : "P1#9E7EB200",
                "internals" : {
                   "DEF" : "7EB200_1_3",
@@ -114,7 +114,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 1, switch 5-8",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 1, switch 5-8",
                "dmsg" : "P1#B57EB200",
                "internals" : {
                   "DEF" : "7EB200_1_4",
@@ -137,7 +137,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 2, switch 5-8",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 2, switch 5-8",
                "dmsg" : "P1#8D7EB200",
                "internals" : {
                   "DEF" : "7EB200_2_1",
@@ -160,7 +160,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 3, switch 5-8",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 3, switch 5-8",
                "dmsg" : "P1#A57EB200",
                "internals" : {
                   "DEF" : "7EB200_2_2",
@@ -183,7 +183,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 4, switch 5-8",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 4, switch 5-8",
                "dmsg" : "P1#957EB200",
                "internals" : {
                   "DEF" : "7EB200_2_3",
@@ -206,7 +206,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 1, switch 9-12",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 1, switch 9-12",
                "dmsg" : "P1#B87EB200",
                "internals" : {
                   "DEF" : "7EB200_2_4",
@@ -229,7 +229,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 2, switch 9-12",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 2, switch 9-12",
                "dmsg" : "P1#847EB200",
                "internals" : {
                   "DEF" : "7EB200_3_1",
@@ -252,7 +252,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 3, switch 9-12",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 3, switch 9-12",
                "dmsg" : "P1#A87EB200",
                "internals" : {
                   "DEF" : "7EB200_3_2",
@@ -275,7 +275,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 4, switch 9-12",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 4, switch 9-12",
                "dmsg" : "P1#987EB200",
                "internals" : {
                   "DEF" : "7EB200_3_3",
@@ -298,7 +298,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 1, switch 13-16",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 1, switch 13-16",
                "dmsg" : "P1#B27EB200",
                "internals" : {
                   "DEF" : "7EB200_3_4",
@@ -321,7 +321,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 2, switch 13-16",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 2, switch 13-16",
                "dmsg" : "P1#8A7EB200",
                "internals" : {
                   "DEF" : "7EB200_4_1",
@@ -344,7 +344,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 3, switch 13-16",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 3, switch 13-16",
                "dmsg" : "P1#A27EB200",
                "internals" : {
                   "DEF" : "7EB200_4_2",
@@ -367,7 +367,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button 4, switch 13-16",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button 4, switch 13-16",
                "dmsg" : "P1#927EB200",
                "internals" : {
                   "DEF" : "7EB200_4_3",
@@ -390,7 +390,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung 16 Channel SY-3523498 Button ALL",
+               "comment" : "RSL Fernbedienung 16 channel SY-3523498 Button ALL",
                "dmsg" : "P1#A37EB200",
                "internals" : {
                   "DEF" : "7EB200_ALL",
@@ -413,7 +413,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung xx Channel <modell> Button ALL on",
+               "comment" : "RSL Fernbedienung 12 channel Lunvon Button ALL on",
                "dmsg" : "P1#93500A00",
                "internals" : {
                   "DEF" : "500A00_ALL",
@@ -436,7 +436,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung xx Channel <modell> Button ALL off",
+               "comment" : "RSL Fernbedienung 12 channel Lunvon Button ALL off",
                "dmsg" : "P1#A3500A00",
                "internals" : {
                   "DEF" : "500A00_ALL",
@@ -459,8 +459,8 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung xx Channel <modell> Button 1 on",
-               "dmsg" : "P1#A3500A00",
+               "comment" : "RSL Fernbedienung 12 channel Lunvon 12 Button 1 on",
+               "dmsg" : "P1#8E500A00",
                "internals" : {
                   "DEF" : "500A00_1_1",
                   "NAME" : "RSL_500A00_1_1",
@@ -482,12 +482,12 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung xx Channel <modell> Button 1 off",
+               "comment" : "RSL Fernbedienung 12 channel Lunvon Button 1 off",
                "dmsg" : "P1#81500A00",
                "internals" : {
                   "DEF" : "500A00_1_1",
                   "NAME" : "RSL_500A00_1_1",
-                  "OnCode" : "98",
+                  "OnCode" : "8E",
                   "OffCode" : "81"
                },
                "minProtocolVersion" : "1.27",
@@ -505,8 +505,8 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung xx Channel <modell> Button 2 on",
-               "dmsg" : "P1#A3500A00",
+               "comment" : "RSL Fernbedienung 12 channel Lunvon Button 2 on",
+               "dmsg" : "P1#A6500A00",
                "internals" : {
                   "DEF" : "500A00_1_2",
                   "NAME" : "RSL_500A00_1_2",
@@ -528,7 +528,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung xx Channel <modell> Button 2 off",
+               "comment" : "RSL Fernbedienung 12 channel Lunvon Button 2 off",
                "dmsg" : "P1#AE500A00",
                "internals" : {
                   "DEF" : "500A00_1_2",
@@ -551,7 +551,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung xx Channel <modell> Button 3 on",
+               "comment" : "RSL Fernbedienung 12 channel Lunvon Button 3 on",
                "dmsg" : "P1#96500A00",
                "internals" : {
                   "DEF" : "500A00_1_3",
@@ -574,7 +574,7 @@
                ]
             },
             {
-               "comment" : "RSL Fernbedienung xx Channel <modell> Button 3 off",
+               "comment" : "RSL Fernbedienung 12 channel Lunvon Button 3 off",
                "dmsg" : "P1#9E500A00",
                "internals" : {
                   "DEF" : "500A00_1_3",
@@ -773,6 +773,214 @@
                "revision_entry" : "2021-03-23 14:05:03",
                "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
                "rmsg" : "MS;P0=-1265;P1=1182;P2=-688;P3=591;P4=-7142;D=341230123030301212301212123012303012301230301230303030303030303030;CP=3;SP=4;R=26;O;s=84;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 1, switch II on",
+               "dmsg" : "P1#8574A400",
+               "internals" : {
+                  "DEF" : "74A400_2_1",
+                  "NAME" : "RSL_74A400_2_1",
+                  "OnCode" : "85",
+                  "OffCode" : "8D"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P3=1178;P4=-699;P5=585;P6=-1263;P7=-7128;D=573456565656345634563434345634565634563456563456565656565656565656;CP=5;SP=7;R=32;O;s=104;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 2, switch II on",
+               "dmsg" : "P1#A974A400",
+               "internals" : {
+                  "DEF" : "74A400_2_2",
+                  "NAME" : "RSL_74A400_2_2",
+                  "OnCode" : "A9",
+                  "OffCode" : "A5"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-7070;P1=1189;P2=-679;P3=580;P4=-1264;D=301234123412343412341212123412343412341234341234343434343434343434;CP=3;SP=0;R=29;O;s=102;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 3, switch II off",
+               "dmsg" : "P1#9574A400",
+               "internals" : {
+                  "DEF" : "74A400_2_3",
+                  "NAME" : "RSL_74A400_2_3",
+                  "OnCode" : "99",
+                  "OffCode" : "95"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P2=1195;P3=-676;P4=587;P5=-1255;P6=-7156;D=462345452345234523452323234523454523452345452345454545454545454545;CP=4;SP=6;R=31;O;s=104;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 1, switch III on",
+               "dmsg" : "P1#8874A400",
+               "internals" : {
+                  "DEF" : "74A400_3_1",
+                  "NAME" : "RSL_74A400_3_1",
+                  "OnCode" : "88",
+                  "OffCode" : "84"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-671;P1=594;P2=-7186;P6=-1266;P7=1187;D=127016161670161616167070701670161670167016167016161616161616161616;CP=1;SP=2;R=33;O;m1;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 2, switch III on",
+               "dmsg" : "P1#A074A400",
+               "internals" : {
+                  "DEF" : "74A400_3_2",
+                  "NAME" : "RSL_74A400_3_2",
+                  "OnCode" : "A0",
+                  "OffCode" : "A8"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-680;P1=587;P5=-1267;P6=1175;P7=-7162;D=176015601515151515156060601560151560156015156015151515151515151515;CP=1;SP=7;R=31;O;s=70;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 3, switch III on",
+               "dmsg" : "P1#9074A400",
+               "internals" : {
+                  "DEF" : "74A400_3_3",
+                  "NAME" : "RSL_74A400_3_3",
+                  "OnCode" : "90",
+                  "OffCode" : "98"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P0=-1267;P2=1188;P3=-678;P4=591;P5=-7149;D=452340402340404040402323234023404023402340402340404040404040404040;CP=4;SP=5;R=29;O;s=38;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 1, switch IV on",
+               "dmsg" : "P1#8274A400",
+               "internals" : {
+                  "DEF" : "74A400_4_1",
+                  "NAME" : "RSL_74A400_4_1",
+                  "OnCode" : "82",
+                  "OffCode" : "8A"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "on"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=1194;P2=-668;P3=590;P4=-1258;P5=-7148;D=351234343434341234341212123412343412341234341234343434343434343434;CP=3;SP=5;R=31;O;s=102;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            }
+            ,
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 2, switch IV off",
+               "dmsg" : "P1#A274A400",
+               "internals" : {
+                  "DEF" : "74A400_4_2",
+                  "NAME" : "RSL_74A400_4_2",
+                  "OnCode" : "AC",
+                  "OffCode" : "A2"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P3=1179;P4=-676;P5=586;P6=-1261;P7=-7144;D=573456345656563456563434345634565634563456563456565656565656565656;CP=5;SP=7;R=32;O;s=86;m0;",
+               "user" : "gandi1791",
+               "tests": [
+                {
+                  "comment": "#0"
+                }
+               ]
+            },
+            {
+               "comment" : "RSL Fernbedienung 12 channel SY-3523496 Button 3, switch IV off",
+               "dmsg" : "P1#9274A400",
+               "internals" : {
+                  "DEF" : "74A400_4_3",
+                  "NAME" : "RSL_74A400_4_3",
+                  "OnCode" : "9C",
+                  "OffCode" : "92"
+               },
+               "minProtocolVersion" : "1.27",
+               "readings" : {
+                  "state" : "off"
+               },
+               "revision_entry" : "2021-03-23 14:05:03",
+               "revision_modul" : "14_SD_RSL.pm  7779 2019-01-04 18:00:00Z v3.34-dev",
+               "rmsg" : "MS;P1=587;P2=-672;P3=-1273;P4=1181;P5=-7146;D=154213134213134213134242421342131342134213134213131313131313131313;CP=1;SP=5;R=30;O;s=96;m0;",
                "user" : "gandi1791",
                "tests": [
                 {
