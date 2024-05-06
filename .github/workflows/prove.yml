@@ -38,7 +38,7 @@ jobs:
     - name: Install Test2 RDMSG Tool
       run: |
         wget -O fhemcl.sh https://raw.githubusercontent.com/heinz-otto/fhemcl/master/fhemcl.sh
-        chmod +x ./fhemcl.sh && echo -e "update force https://raw.githubusercontent.com/fhem/Test2-FHEM/main/controls_Test2-FHEM.txt" | ./fhemcl.sh http://localhost:8083 
+        chmod +x ./fhemcl.sh && echo -e "update force https://raw.githubusercontent.com/fhem/Test2-FHEM/main/controls_Test2-FHEM.txt" | ./fhemcl.sh http://localhost:8083  && sleep 5
       shell: bash
 
     - name: Stop Service
