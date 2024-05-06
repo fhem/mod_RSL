@@ -1,7 +1,7 @@
 requires 'List::Util';
 requires 'File::Find';
 requires 'File::Basename';
-requires 'Test2::V0'; 
+requires 'Test2::Suite'; 
 requires 'Devel::Cover'; 
 requires 'JSON';
 requires 'Net::SSLeay';

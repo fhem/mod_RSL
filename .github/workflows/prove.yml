@@ -38,7 +38,7 @@ jobs:
     - name: Install Test2 RDMSG Tool
       run: |
         wget -O fhemcl.sh https://raw.githubusercontent.com/heinz-otto/fhemcl/master/fhemcl.sh
-        chmod +x ./fhemcl.sh && echo -e "update force https://raw.githubusercontent.com/fhem/Test2-FHEM/main/controls_Test2-FHEM.txt" | ./fhemcl.sh http://localhost:8083 
+        chmod +x ./fhemcl.sh && echo -e "update force https://raw.githubusercontent.com/fhem/Test2-FHEM/main/controls_Test2-FHEM.txt" | ./fhemcl.sh http://localhost:8083  && sleep 5
       shell: bash
 
     - name: Stop Service
@@ -60,9 +60,10 @@ jobs:
     - name: Create clover report
       working-directory: /opt/fhem/
       run: cover -report clover
-    - uses: codecov/codecov-action@v3.1.4
+    - uses: codecov/codecov-action@v4.3.1
       with:
         token: ${{ secrets.CODECOV_TOKEN }}
-        file: /opt/fhem/cover_db/clover.xml
+        directory: /opt/fhem/cover_db
+        files: ./clover.xml
         flags: unittests,fhem,modules
         name: fhem (testscripts) ${{ matrix.perl }} 
