@@ -372,7 +372,7 @@ Beim Verwendung von Autocreate wird bei der Taste All anstatt channel und button
 </ul>
 =end html_DE
 
-=for :application/json;q=META.json 41_Oregon.pm
+=for :application/json;q=META.json 14_SD_RSL.pm
 {
   "abstract": "devices communicating using the Conrad RSL protocol",
   "author": [
@@ -383,7 +383,7 @@ Beim Verwendung von Autocreate wird bei der Taste All anstatt channel und button
     "Sidey"
   ],
   "x_fhem_maintainer_github": [
-    "Sidey79",
+    "Sidey79"
   ],
   "description": "The SD_RSL module decrypts and creates Conrad RSL messages sent / received by a SIGNALduino device.",
   "dynamic_config": 1,
