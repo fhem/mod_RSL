@@ -1,3 +1,14 @@
+2026-09-20 - fix: close unbalanced <p> tags in commandref
+
+The FHEM SVN pre-commit hook rejected the module because the English and
+the German commandref both opened a <p> in the Define section without
+ever closing it:
+
+    trunk/fhem/FHEM/14_SD_RSL.pm: EN: Unbalanced p (1, last line ok: 271)
+    trunk/fhem/FHEM/14_SD_RSL.pm: DE: Unbalanced p (1, last line ok: 325)
+
+Close both paragraphs after the define syntax line. While in the same
+section, repair the truncated <br tag in the German Set block.
 2026-09-20 - perf: precompile Match regex with qr//
 
 Assign the dispatch pattern as a compiled qr// object instead of a

@@ -277,7 +277,7 @@ If autocreate is used, a device &quot;&lt;code&gt;_ALL&quot; like RSL_74A400_ALL
 <a name="SD_RSL_Define"></a>
 <b>Define</b>
 <ul>
-	<p><code>define &lt;name&gt; SD_RSL &lt;code&gt;_&lt;channel&gt;[_&lt;button&gt;] &lt;optional IODEV&gt;</code>
+	<p><code>define &lt;name&gt; SD_RSL &lt;code&gt;_&lt;channel&gt;[_&lt;button&gt;] &lt;optional IODEV&gt;</code></p>
 	<br>
 	<br>
 	<code>&lt;name&gt;</code> is any name assigned to the device.
@@ -330,7 +330,7 @@ Beim Verwendung von Autocreate wird bei der Taste All anstatt channel und button
 <a name="SD_RSL_Define"></a>
 <b>Define</b>
 <ul>
-	<p><code>define &lt;name&gt; SD_RSL &lt;code&gt;_&lt;channel&gt;[_&lt;button&gt;] &lt;optional IODEV&gt;</code>
+	<p><code>define &lt;name&gt; SD_RSL &lt;code&gt;_&lt;channel&gt;[_&lt;button&gt;] &lt;optional IODEV&gt;</code></p>
 	<br>
 	<br>
 	<code>&lt;name&gt;</code> ist ein Name, der dem Ger&auml;t zugewiesen ist.
@@ -346,7 +346,7 @@ Beim Verwendung von Autocreate wird bei der Taste All anstatt channel und button
 <a name="SD_RSL_Set"></a>
 <b>Set</b>
 <ul>
-  <code>set <name> &lt;[on|off|toggle]&gt;</code><br
+  <code>set <name> &lt;[on|off|toggle]&gt;</code><br>
   Schaltet das Ger&auml;t ein oder aus.<br><br>
   <code>set <name> &lt;[on-for-timer|off-for-timer|on-till|off-till|blink|intervals]&gt;</code><br>
   Schaltet das Ger&auml;t f&uuml;r einen bestimmten Zeitraum. Weitere Infos hierzu unter <a href="#setExtensions">set extensions</a>.<br><br>
