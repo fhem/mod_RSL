@@ -64,7 +64,7 @@ my @RSLCodes;
 sub SD_RSL_Initialize { 
   my ($hash) = @_;
 
-  $hash->{Match}     = "^P1#[A-Fa-f0-9]+";
+  $hash->{Match}     = qr/^P1#[A-Fa-f0-9]+/;
   $hash->{SetFn}     = \&SD_RSL_Set;
   $hash->{DefFn}     = \&SD_RSL_Define;
   $hash->{UndefFn}   = \&SD_RSL_Undef;
