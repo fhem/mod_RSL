@@ -21,7 +21,7 @@ jobs:
       with:
         fetch-depth: 0
     - name: update controls files
-      uses: fhem/fhem-controls-actions@v2
+      uses: fhem/fhem-controls-actions@v4.0.2
       with:
         filename: controls_rsl.txt 
     - name: update CHANGED
